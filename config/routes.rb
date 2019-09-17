@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  root to: redirect('/profile', status: 302)
-  get 'profile', to: 'pages#profile', as: 'profile'
+  root to: redirect('/drllano1', status: 302)
+  get 'drllano1', to: 'pages#profile', as: 'drllano1'
+  get 'review', to: 'pages#review', as: 'review'
 end
